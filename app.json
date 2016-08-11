@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-    "name": "Nibs / iBeacon",
-    "description": "Nibs with geolocation (iBeacon capability)",
-    "addons": ["heroku-postgresql:hobby-dev"]
-=======
   "name": "meetup",
   "description": "",
   "scripts": {
@@ -15,11 +10,13 @@
       "quantity": 1
     }
   },
-  "addons": [
-
-  ],
+  "addons": ["heroku-postgresql:hobby-dev"]
+  ,
+  {
   "buildpacks": [
-
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }  
   ]
->>>>>>> 2c80f447d17135fcde27da8eb640b60a114ffcfe
+}
 }
