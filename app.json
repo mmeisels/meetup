@@ -1,25 +1,5 @@
 {
-<<<<<<< HEAD
-    "name": "Nibs / iBeacon",
-    "description": "Nibs with geolocation (iBeacon capability)",
+    "name": "Mike Meetup",
+    "description": "Mike Meetup example review",
     "addons": ["heroku-postgresql:hobby-dev"]
-=======
-  "name": "meetup",
-  "description": "",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ]
->>>>>>> 2c80f447d17135fcde27da8eb640b60a114ffcfe
 }
